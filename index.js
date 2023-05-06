@@ -17,7 +17,7 @@ const flash = require('connect-flash');
 
 const customMware = require('./config/middleware');
 const noty = require('noty');
-
+// const chatRouter=require('./routes/chat')
 
 // // setupchatserver and using it
 // // const chatServer=http.createserver(app);
@@ -147,6 +147,6 @@ app.listen(port, function (err) {
 // ssh -i ~/Downloads/socialmedia_production.pem  ubuntu@ec2-34-238-255-83.compute-1.amazonaws.com
 //  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
-// export NVM_DIR="$HOME/.nvm"
-// [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-// [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+// // export NVM_DIR="$HOME/.nvm"
+//  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+//  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
